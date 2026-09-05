@@ -1,1 +1,137 @@
 /* css styles */
+.pdf-container {
+    width: 100%;
+    height: 100vh;
+    /* Full viewport height */
+    min-height: 800px;
+    /* Ensures minimum height */
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ddd;
+    /* Optional: adds a border to see the container */
+}
+
+.pdf-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+/* Custom color theme based on your LaTeX colors */
+:root {
+    --lightburgundy: rgb(176, 48, 96);
+    --nude: rgb(180, 100, 80);
+    --rose: rgb(233, 203, 200);
+    --darkrose: rgb(200, 160, 155);
+    --darkbrown: rgb(116, 58, 52);
+}
+
+/* Main headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--darkbrown);
+}
+
+/* Links */
+a {
+    color: var(--lightburgundy);
+}
+
+a:hover {
+    color: var(--nude);
+}
+
+/* Navigation bar (if you have one) */
+.navbar {
+    background-color: var(--rose) !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: var(--lightburgundy) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--nude) !important;
+}
+
+/* Body background */
+body {
+    background-color: white;
+} 
+
+/* Content area background */
+.quarto-container {
+    background-color: #fdf2f4;
+}
+
+/* Blockquotes and callouts */
+blockquote {
+    border-left: 4px solid var(--darkrose);
+    background-color: var(--rose);
+    padding: 15px;
+}
+
+/* Code blocks */
+pre {
+    background-color: var(--rose);
+    border: 1px solid var(--darkrose);
+}
+
+/* Tables */
+table {
+    border-color: var(--darkrose);
+}
+
+thead {
+    background-color: var(--rose);
+    color: var(--lightburgundy);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--lightburgundy);
+    border-color: var(--lightburgundy);
+}
+
+.btn-primary:hover {
+    background-color: var(--nude);
+    border-color: var(--nude);
+}
+
+/* Abstract styling to match your theme */
+.inline-abstract summary {
+    color: var(--lightburgundy) !important;
+}
+
+.abstract-content,
+.inline-abstract div {
+    background-color: var(--rose);
+    border-left: 3px solid var(--lightburgundy);
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+/* PDF container styling */
+.pdf-container {
+    border: 2px solid var(--darkrose);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* About page buttons (Email, CV, ORCID) */
+.about-link {
+    color: var(--lightburgundy) !important;
+    border-color: var(--lightburgundy) !important;
+}
+.about-link:hover {
+    color: var(--nude) !important;
+    border-color: var(--nude) !important;
+    background-color: var(--rose) !important;
+}

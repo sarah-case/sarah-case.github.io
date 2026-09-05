@@ -6,6 +6,10 @@ title: "Research"
 
 My research examines American elections, voter confidence, and how post-election audits are tools to influence voter confidence. A complete list is on [my CV.](cv.pdfelw23;l)
 
+## Published Papers 
+
+Atkeson, Lonna, Yimeng Li, **Sarah Case**, and Miguel Arceo-Miranda. 2026. ["2024 Florida Election Study."](fes-2024.pdf)
+
 ## Working Papers
 
 **Case, Sarah**. 2026. "[Behind the Count: How Transparency in Election Audits Can Influence Voter Confidence](behind-the-count.pdf)."
@@ -13,8 +17,6 @@ My research examines American elections, voter confidence, and how post-election
 **Sarah Case**, Taylor J. Hill, Caroline Robbins, and Yusaku Horiuchi. 2026. "Review of Conjoint Experiments Within the Discipline and Recommendations for Interpretation." 
 
 Atkeson, Lonna, Yimeng Li, Austin Culter, **Sarah Case**, and Marli Wang Dunietz. 2026. "Election Transparency: Do Postelection Audits Improve Voter Confidence?" [Audit Dashboard](https://www.voterdata.lci.fsu.edu/en).
-
-Atkeson, Lonna, Yimeng Li, **Sarah Case**, and Miguel Arceo-Miranda. 2026. ["2024 Florida Election Study."](fes-2024.pdf)
 
 **Case, Sarah**. 2025. "Did We Move On? Effects of Cross-Pressure Attitudes Between Gender and Partisanship with the #MeToo Movement." 
 
